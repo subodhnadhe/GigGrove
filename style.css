@@ -1,0 +1,82 @@
+h1 img{
+    height: 5rem;
+    padding-left: 20;
+    padding-right: 20;
+}
+p{
+    font-size: 2rem;
+    text-align: center;
+
+}
+.heading{
+    margin-top: 2rem;
+    justify-content: center;
+    text-align: center;
+    color: #FFF5C0;
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+body{
+    background-color: #FF8585;
+}
+
+button{
+        outline: none;
+        border: 10px solid #404B69;
+        font-size: 5rem;
+        font-family: 'Arvo', cursive;
+        line-height: 2;
+        font-weight: 900;
+        color: #5bf3a7;
+        text-shadow: 3px 0 #DBEDF3;
+        border-radius: 15px;
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin: 10px;
+        background-color: white;
+}
+.button-container{
+    margin-top: 4rem;
+    display: flex;
+    gap:3.4rem;
+    justify-content: center;
+}
+.a{
+    background-image: url("./images/bagpipe.svg");
+    background-color: #DA9FF9;
+    background-size: 8rem;
+
+}
+.s{
+    background-image: url("./images/drum.svg");
+    background-color: #DA9FF9;
+    background-size: 8rem;
+}
+.d{
+    background-image: url("./images/flute.svg");
+    background-color: #DA9FF9;
+    background-size: 8rem;
+}
+.f{
+    background-image: url("./images/guitar.svg");
+    background-color: #DA9FF9;
+    background-size: 8rem;
+}
+.g{
+    background-image: url("./images/piano.svg");
+    background-color: #DA9FF9;
+    background-size: 8rem;
+}
+.h{
+    background-image: url("./images/shaker.svg");
+    background-color: #DA9FF9;
+    background-size: 8rem;
+}
+.pressed{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
